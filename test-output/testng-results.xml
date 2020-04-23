@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="213" started-at="2020-04-24T00:48:18 EET" finished-at="2020-04-24T00:48:19 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="213" started-at="2020-04-24T00:48:18 EET" finished-at="2020-04-24T00:48:19 EET">
+      <class name="TestNG.testing">
+        <test-method status="PASS" signature="readIni()[pri:0, instance:TestNG.testing@49fc609f]" name="readIni" duration-ms="76" started-at="2020-04-24T00:48:19 EET" finished-at="2020-04-24T00:48:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readIni -->
+      </class> <!-- TestNG.testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
