@@ -30,14 +30,14 @@ public class testing {
 //	  js.inject();
 ////	  js.anotherWay();
 //  }
-//  @Test
-//  public void writeIn() throws IOException {
-//	  CreatingIni create=new CreatingIni();
-//	  
-//  }
-	@Test
-	public void readIni() throws InvalidFileFormatException, IOException {
-		ReadIni read=new ReadIni();
-		
-	}
+  @Test
+  public void writeIn() throws IOException {
+	  CreatingIni create=new CreatingIni();
+	  
+  }
+//	@Test
+//	public void readIni() throws InvalidFileFormatException, IOException {
+//		ReadIni read=new ReadIni();
+//		
+//	}
 }

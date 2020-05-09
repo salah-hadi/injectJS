@@ -8,10 +8,10 @@ import org.ini4j.Wini;
 public class CreatingIni {
 	
 public CreatingIni() throws IOException {
-	Wini ini = new Wini(new File("C:\\Users\\hp\\Documents\\HP eclipse workspace\\injectJS\\iniFolder\\myinifile.ini"));
+	Wini ini = new Wini(new File("C:\\Users\\hp\\Documents\\HP eclipse workspace\\injectJS\\iniFolder\\update.ini"));
     
-    ini.put("Test Block", "Xpath", "//dev[2]");
-    ini.put("Test Block", "ID", 45.6);
+    ini.put("Update", "Version", "v 1.2.3");
+    ini.put("Update", "Build", "1.2.3");
     ini.store();
 	
 }
